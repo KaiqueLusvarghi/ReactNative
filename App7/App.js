@@ -57,7 +57,7 @@ entrar(){
         <Text>Nome</Text>
         <TextInput style={styles.textInput}  placeholder=" Digite seu nome? " onChangeText={value => this.setState({nome: value })} />
         <Text>Idade</Text>
-        <TextInput style={styles.textInput} onChangeText={value => this.setState({idade: value })}/>
+        <TextInput style={styles.textInput}  placeholder=" Digite sua idade? " onChangeText={value => this.setState({idade: value })}/>
         <Text>Sexo: </Text>
         <Picker
           selectedValue={this.state.sexo}
