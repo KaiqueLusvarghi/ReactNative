@@ -52,14 +52,14 @@ class App extends Component {
           style={{ width: 150, height: 150 }}
         />
 
-        {/*Inserindo o valor do alcool */}
+        {/*Inserindo o valor da altura */}
         <TextInput
           style={styles.input}
           placeholder="Qual a altura?"
           onChangeText={(n1) => this.setState({ num1: n1 })}
         />
 
-        {/*Inserindo o valor do alcool */}
+        {/*Inserindo o valor do peso */}
         <TextInput
           style={styles.input}
           placeholder="Qual o peso?"
